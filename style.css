@@ -1,5 +1,15 @@
-.center {
+/* style.css */
+body {
     text-align: center;
-    border: 3px solid black;
-  }
-  
+}
+
+/* Center the content within a container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Add any additional CSS rules you need */
